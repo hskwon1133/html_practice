@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문하기</title>
+</head>
+    <h1>주문하기</h1>
+    <label for="user_name">고객명:</label>
+    <input type="text" id="user_name" name="user_name">
+    <br/>
+    <label for="user_telnum">전화번호:</label>
+    <input type="tel" id="user_telnum" name="user_telnum">    
+    <br/>
+    <label for="user_mail">이메일:</label>
+    <input type="email" id="user_mail" name="user_mail">      
+
+    <hr/>
+
+    <h3>피자사이즈</h3>
+    <label for="size_s">Small</label>
+    <input type="radio" id="size_s" name="size" value="small">
+    <br/>
+    <br/>
+    <label for="size_m">Medium</label>
+    <input type="radio" id="size_m" name="size" value="medium">
+    <br/>
+    <br/>
+    <label for="size_l">Large</label>
+    <input type="radio" id="size_l" name="size" value="large">
+
+    <hr/>
+    <h3>토핑 선택</h3>
+    <label for="topping1">베이컨</label>
+    <input type="checkbox" id="topping1" name="topping" value="bacon">
+    <br/>
+    <br/>
+    <label for="topping2">치즈</label>
+    <input type="checkbox" id="topping2" name="topping" value="cheese">
+    <br/>
+    <br/>
+    <label for="topping3">양파</label>
+    <input type="checkbox" id="topping3" name="topping" value="onion">
+    <br/>
+    <br/>
+    <label for="topping4">버섯</label>
+    <input type="checkbox" id="topping4" name="topping" value="mushroom">
+    <br/>
+    <label for="reserved_time">희망 배송 시간: </label>
+    <input type="time" id="reserved_time" name="reserved_time">
+    <br/>
+    <br/>
+    <label for="request_msg">배송 요청사항: </label>
+    <textarea id="request_msg" name="request_msg"></textarea>
+    
+    <br/>
+    <br/>
+    <input type="submit" name="submit" value="주문하기">
+
+</body>
+</html>

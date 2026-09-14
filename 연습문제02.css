@@ -1,0 +1,37 @@
+label[for="tt"]{
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+  text-indent: 40px;
+  display: block;
+}
+#target1{
+  background-color: #ecc0c0;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+#target2{
+  background-color: red;
+  font-size: 16px;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+}
+
+tr{
+  background-color: yellow;
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+  text-align: center;
+}
+#submit{
+  background-color: skyblue;
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+}

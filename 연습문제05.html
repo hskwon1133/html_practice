@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문관리</title>
+    <link rel="stylesheet" href="연습문제05.css">
+</head>
+<body>
+    <h1>주문관리</h1>
+    <h2>주문자 정보</h2>
+    <ol id="order-info" type="1">
+        <li>주문자명: 
+            <input type="text" id="order_name" name="order_name" placeholder="name">
+        </li>
+        <li>email: 
+            <input type="email" id="order_email" name="order_email" placeholder="1dragon@yaho.com">
+        </li>
+
+        <li>홈페이지: 
+            <input type="url" id="order_website" name="order_website" placeholder="https://">
+        </li>
+
+    </ol>
+
+    <br/>
+    <br/>
+    <h2>주문정보</h2>
+    <ul id ="order-info">
+        <li> 상품명:
+            <input type="text" id="order_product" name="order_product" >
+        </li>
+        <li> 주문 수량:
+            <input type="number" id="order_quantity" name="order_quantity" min="100" placeholder="최소 100">
+        </li>
+        <li> 할인율 :
+            <input type="range" id="order_discount" name="order_discount" min="0" max="1" step="0.01" value="0.5">
+        </li>
+        <li> 요청사항: 
+            <textarea id="order_request" name="order_request"></textarea>
+        </li>
+    </ul>
+    <br/>
+    <input type="submit" name="submit" value="주문하기">
+
+
+</body>
+</html>

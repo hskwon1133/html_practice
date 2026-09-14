@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="연습문제06.css">
+</head>
+<body>
+    <h1>회원가입</h1>
+    <h2>필수 입력 사항</h2>
+
+
+    <label for="user_id">ID</label>
+    <input type="text" id="user_id" name="user_id" placeholder="아이디 10글자 이내">
+    <button type="button" id="id_check">중복확인</button>
+
+
+    <br/>
+
+
+    <label for="user_pw">비밀번호</label>
+    <input type="password" id="user_pw" name="user_pw" placeholder="영문, 숫자, 특수문자 포함 8자 이상">
+
+
+    <br/>
+
+
+    <label for="user_pw_check">비밀번호 확인</label>
+    <input type="password" id="user_pw_check" name="user_pw_check">
+
+
+    <br/>
+
+    <label for="user_mail">Email</label>
+    <input type="text" id="user_mail" name="user_mail">
+    <select name="user_mail_list" id="user_mail_list">
+        <option value="">직접입력</option>
+        <option value="naver.com">naver.com</option>
+        <option value="hanmail.net">hanmail.net</option>
+        <option value="gmail.com">gmail.com</option>
+    </select>
+
+    <!-- <input list="mail_list" name="user_mail_list" placeholder="직접입력">
+    <datalist id="mail_list">
+        <option value="naver.com">
+        <option value="daum.net">
+        <option value="gmail.com">
+    </datalist> -->
+    
+    <hr/>
+    
+    <h2>추가 정보</h2>
+    <label for="user_photo">프로필 사진: </label>
+    <input type="file" id="user_photo" name="user_photo" accept="image/*">
+
+    <br/>
+    <br/>
+
+    <label for="user_gender">성별: </label>
+    <label for="user_gender_m">남자</label>
+    <input type="radio" id="user_gender_m" name="user_gender" value="male">
+    <label for="user_gender_f">여자</label>
+    <input type="radio" id="user_gender_f" name="user_gender" value="female">
+
+    <br/>
+    <br/>
+
+    <label for="user_birth">생년월일: </label>
+    <input type="date" id="user_birth" name="user_birth">
+
+    <br/>
+    <br/>
+
+    <label for="user_hobby">취미: </label>
+    <br/>
+    <input type="checkbox" id="user_hobby1" name="user_hobby" value="game">
+    <label for="user_hobby1">게임</label>
+    <input type="checkbox" id="user_hobby2" name="user_hobby" value="exercise">
+    <label for="user_hobby2">운동</label>
+    <input type="checkbox" id="user_hobby3" name="user_hobby" value="sleep">
+    <label for="user_hobby3">취침</label>
+
+    <br/>
+    <input type="checkbox" id="user_hobby4" name="user_hobby" value="dance">
+    <label for="user_hobby4">댄스</label>
+
+    <input type="checkbox" id="user_hobby5" name="user_hobby" value="singing">
+    <label for="user_hobby5">노래</label>
+    <input type="checkbox" id="user_hobby6" name="user_hobby" value="studying">
+    <label for="user_hobby6">공부</label>
+
+    <br/>
+    <input type="checkbox" id="user_hobby7" name="user_hobby" value="etc">
+    <label for="user_hobby7">기타:</label>
+    <input type="text" id="user_hobby_etc" name="user_hobby_etc">
+
+    <br/>
+    <br/>
+    <label for="user_intro">자기소개 </label>
+    <br/>
+    <textarea id="user_intro" name="user_intro"></textarea>
+    
+    <br/>
+    <input type="submit" name="submit" value="회원가입">
+    <input type="reset" name="reset" value="다시작성">
+    <input type="button" name="before" value="이전으로">
+
+</body>
+</html>
