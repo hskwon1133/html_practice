@@ -1,0 +1,165 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: black; */
+    border: 1px dotted black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 70%;
+    height: 50%;
+    /* background-color: white; */
+    border: 1px solid black;
+
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border-radius: 30px
+
+
+} 
+
+.layer0_left {
+    background-color: white;
+    /* border: 1px dotted black; */
+
+    width:50%;
+    height:70%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;    
+    flex-direction: column;
+}
+
+
+.logo{
+    width:90%;    
+    height:15%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;  
+}
+
+.login{
+    width: 90%;
+    height: 15%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin:15px; 
+
+
+    font-size: 18px;    
+}
+
+.login_text {
+    width: 92%;
+    height: 10%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    font-size: 13px;
+
+}
+
+.layer0_right {
+    background-color: white;
+    /* border: 1px dotted black; */
+
+    width:50%;
+    height:70%;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;  
+    flex-direction: column; 
+
+}
+
+.account_info{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    margin-top: 50px;   
+}
+
+#account_info {
+    width: 450px;
+    height: 40px;
+    text-indent: 10px;
+    font-size: 15px;  
+}
+
+.forget_email > p {
+    color:rgb(7, 139, 247);
+    font-size: 14px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 0;          
+
+}
+
+.wrapper {
+    white-space: wrap;  
+    width: 90%;
+    height: 15%;
+}
+
+.wrapper .guess_mode0,
+.wrapper .guest_mode1 {
+    
+    display: inline;    
+    font-size: 14px;
+}
+
+.guest_mode1 {
+    color: rgb(7, 139, 247); 
+}
+
+.wrapper1{
+    background-color: white;
+    /* border: 1px dotted black; */
+
+    width: 90%;
+    height: 15%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;    
+    flex-direction: row;
+}
+
+#button0, #button1 {
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 36px;
+    padding: 0 24px;
+    font-family: inherit;
+}
+
+#button0 {
+    background-color: white;
+    color: rgb(7, 139, 247);   
+}
+
+#button1{
+    background-color: rgb(7, 139, 247);
+    color: white;
+}
